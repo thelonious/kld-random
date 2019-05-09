@@ -12,7 +12,8 @@
     "type": "git",
     "url": "git+https://github.com/thelonious/kld-random.git"
   },
-  "main": "index.js",
+  "main": "dist/index-umd.js",
+  "module": "index.js",
   "browserslist": [
     "cover 100%"
   ],
