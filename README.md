@@ -56,7 +56,7 @@ import {uniformGeneratorRange} from "kld-random";
 
 const min = 10;
 const max = 233;
-const random = uniformGenerator(min, max);
+const random = uniformGeneratorRange(min, max);
 
 for (let i = 0; i < 10; i++) {
     console.log(random());
